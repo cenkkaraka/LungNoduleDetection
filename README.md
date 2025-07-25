@@ -19,8 +19,9 @@ Luna3DCNN/
 ├── train.py # Main training script
 ├── evaluate.py # Model evaluation and prediction
 ├── plot_auc.py # AUC-epoch visualization
-├── requirements.txt # Python dependencies
 └── README.md # Project overview and instructions
+
+---
 
 ## 🚀 Features
 
@@ -31,6 +32,13 @@ Luna3DCNN/
 - **Training visualization**: AUC over epochs with `matplotlib`
 
 ---
+
+## 🛠️ Installation
+
+```bash
+git clone https://github.com/your-username/Luna3DCNN.git
+cd Luna3DCNN
+pip install -r requirements.txt
 
 ## 🛠️ Installation
 
