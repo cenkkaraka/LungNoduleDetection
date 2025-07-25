@@ -21,11 +21,6 @@ Luna3DCNN/
 ├── plot_auc.py # AUC-epoch visualization
 ├── requirements.txt # Python dependencies
 └── README.md # Project overview and instructions
-
-yaml
-Copy
-Edit
-
 ---
 
 ## 🚀 Features
