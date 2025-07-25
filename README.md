@@ -33,40 +33,7 @@ Luna3DCNN/
 
 ---
 
-## 🛠️ Installation
 
-```bash
-git clone https://github.com/your-username/Luna3DCNN.git
-cd Luna3DCNN
-pip install -r requirements.txt
-
-## 🛠️ Installation
-
-```bash
-git clone https://github.com/your-username/Luna3DCNN.git
-cd Luna3DCNN
-pip install -r requirements.txt
-📦 Requirements
-Python 3.8+
-
-PyTorch
-
-NumPy
-
-SciKit-Image
-
-Matplotlib
-
-Scikit-learn
-
-tqdm
-
-Install all dependencies with:
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
 📊 Training
 Train the model on 3D lung patches:
 
@@ -75,15 +42,6 @@ Copy
 Edit
 python train.py --epochs 20 --batch_size 16 --lr 1e-4
 You can modify other arguments like --data_dir, --model_dir, and --log_interval.
-
-📈 Visualizing AUC
-To plot AUC over epochs:
-
-bash
-Copy
-Edit
-python plot_auc.py --log_file path/to/your/log.txt
-This will generate and display a line plot of AUC vs. Epoch.
 
 🧠 How It Works
 Input: 3D CT scan patches extracted from LUNA16 annotations
